@@ -7,6 +7,7 @@
 5. Is there a correlation between home price and crime rate?
 6. Is crime increasing in either the lowest or highest property value areas?
 7. Analyze the crime data by "bucket." Make a bar char of the crimes per bucket per year to see the changes over time.
+*  bay1, bay2, bay3...b4y1, b4y2, b4y3
 8. Make a heat map of all of the crimes for the area for the "Crimes against the person *" (Title 8 and Title 9)
 9. Make a heat map of all of the high poverty areas.
 10. Analyse the crime rates versus the high poverty areas.
@@ -18,7 +19,12 @@
 * Clean the crime data, store in Resources/Crime_clean.csv
 * Create the zip code to city csv file and store 
 2. Cora:
-* 
+* Use beutiful soup to grab the median housing data from each zip code
+* Store the data in Resources/Median_Housing_per_ZipCode.csv
+3. Eliot:
+* Do a date frame from census for 2014-2019. Store in Resources/Census.csv
+4. Peter:
+* Document the steps needed for the various plots and diagrams so they are ready to drop in once the other data is available.
 
 ## Data Sets
 1. https://data.saccounty.net/datasets/9a7f2df25a584ff9b55db274704ad7c9_0/geoservice
@@ -26,40 +32,3 @@
 3. https://leginfo.legislature.ca.gov/faces/codedisplayexpand.xhtml?tocCode=PEN
 4. Need a data source for median home values per zip code.
 
-## Niche Beatuiful Soup Example
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-import os
-
-nicheprefix = "https://www.niche.com/places-to-live/n/"
-nichesuffix = "-atlanta-ga/"
-
-def get_link(url):
-    ret_value = 0
-    from urllib.request import Request, urlopen
-    from bs4 import BeautifulSoup as soup
-    print(url)
-    try:
-        req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        webpage=urlopen(req).read()
-        page_soup = soup(webpage, "html.parser")
-
-        mydivs = page_soup.findAll("div", {"class": "scalar__value"})
-        
-        #print (len(mydivs))
-        #print (mydivs[1])
-        ret_value = (mydivs[1].find("span").get_text())
-
-    except:
-        print ("Could Not Find")
-        
-    return ret_value
-
-niche_price = []
-
-niche_url = neighborhoods['Niche URL'].tolist()
-
-for niche in niche_url:
-    niche_price.append(get_link(niche))
-    
