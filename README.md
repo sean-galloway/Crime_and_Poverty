@@ -13,6 +13,9 @@
 10. Analyse the crime rates versus the high poverty areas.
 11. Analyse the crime rates versus the low poverty areas.
 
+## Jupyter Notebooks
+* Crime_CleanUp.ipynb: this notebook performs many manipulations on the raw Crime.csv data file to produce Crime_clean.csv and Crime_Persons_clean.csv. The manipulations involved include renaming columns and, adding new columns to store resultant data.
+
 ## To Do List:
 1. Sean: 
 * Add the raw Crime.csv file to the Resources file 
