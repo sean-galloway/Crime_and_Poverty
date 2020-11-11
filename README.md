@@ -16,7 +16,8 @@
 ## To Do List:
 1. Sean: 
 * Add the raw Crime.csv file to the Resources file 
-* Clean the crime data, store in Resources/Crime_clean.csv
+* Clean the crime data, limit to 2014-2019 and store in Resources/Crime_clean.csv
+* Store a clean "Crimes Agains Persons" csv file in Resources/Crime_Persons_clean.csv
 * Create the zip code to city csv file and store Resources/ZipCode.csv
 2. Cora:
 * Use beutiful soup to grab the median housing data from each zip code
