@@ -7,7 +7,7 @@
 5. Is there a correlation between home price and crime rate?
 6. Is crime increasing in either the lowest or highest property value areas?
 7. Analyze the crime data by "bucket." Make a bar char of the crimes per bucket per year to see the changes over time.
-*  bay1, bay2, bay3...b4y1, b4y2, b4y3
+*  b1y1, b1y2, b1y3...b4y1, b4y2, b4y3
 8. Make a heat map of all of the crimes for the area for the "Crimes against the person *" (Title 8 and Title 9)
 9. Make a heat map of all of the high poverty areas.
 10. Analyse the crime rates versus the high poverty areas.
