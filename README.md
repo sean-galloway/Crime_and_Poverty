@@ -18,10 +18,10 @@
 
 ## To Do List:
 1. Sean: 
-* Add the raw Crime.csv file to the Resources file 
-* Clean the crime data, limit to 2014-2019 and store in Resources/Crime_clean.csv
-* Store a clean "Crimes Agains Persons" csv file in Resources/Crime_Persons_clean.csv
-* Create the zip code to city csv file and store Resources/ZipCode.csv
+* Add the raw Crime.csv file to the Resources file --> Done
+* Clean the crime data, limit to 2014-2019 and store in Resources/Crime_clean.csv --> Done
+* Store a clean "Crimes Agains Persons" csv file in Resources/Crime_Persons_clean.csv --> Done
+* Create the zip code to city csv file and store Resources/ZipCode.csv --> Done
 2. Cora:
 * Use beutiful soup to grab the median housing data from each zip code
 * Store the data in Resources/Median_Housing_per_ZipCode.csv
@@ -35,5 +35,5 @@
     * https://leginfo.legislature.ca.gov/faces/codedisplayexpand.xhtml?tocCode=PEN
 2. http://www.ciclt.net/sn/clt/capitolimpact/gw_ziplist.aspx?FIPS=06067
 3. https://leginfo.legislature.ca.gov/faces/codedisplayexpand.xhtml?tocCode=PEN
-4. https://niche.com 
+4. https://www.quandl.com/
 
