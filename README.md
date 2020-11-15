@@ -1,4 +1,5 @@
 # Crime_and_Poverty
+Our hypothesis is the following. We hypothesize that a decrease in the violent crime rate results in decreases in the poverty rate and an simultaneous increase in median income and median home prices. Our confidence level is 95% or a p-value of 0.05. We hypothesize that the p-value of these statistics in Oak Park, zip codes 95817 and 95820, is statistically different from the rest of the population, which consists of the rest of Sacramento County. Our observed variables are the crime rate, poverty rate, income rate, and median home prices of Oak Park. Our expected values are the crime rate, poverty rate, income rate, and median home prices for all of Sacramento County. Based upon the observed versus the expected values we can calculate the chi-square and one-tailed t-test. If the p value is greater than 0.05 we will accept the hypothesis and test it out by applying it to the rest of Sacramento County.
 ## Questions
 1. List the Poverty Rates versus Crime Rates for years 2014-2019.
 2. List the Property Values versus Crime Rates for year 2014-2019.
@@ -23,8 +24,8 @@
 * Store a clean "Crimes Agains Persons" csv file in Resources/Crime_Persons_clean.csv --> Done
 * Create the zip code to city csv file and store Resources/ZipCode.csv --> Done
 2. Cora:
-* Use beutiful soup to grab the median housing data from each zip code
-* Store the data in Resources/Median_Housing_per_ZipCode.csv
+   *update the Readme with our hypothesis  --> Done
+   *Test out hypothesis
 3. Eliot:
 * Do a date frame from census for 2014-2019. Store in Resources/Census.csv
 4. Peter:
@@ -32,8 +33,7 @@
 
 ## Data Sets
 1. https://data.saccounty.net/datasets/9a7f2df25a584ff9b55db274704ad7c9_0/geoservice
-    * https://leginfo.legislature.ca.gov/faces/codedisplayexpand.xhtml?tocCode=PEN
 2. http://www.ciclt.net/sn/clt/capitolimpact/gw_ziplist.aspx?FIPS=06067
 3. https://leginfo.legislature.ca.gov/faces/codedisplayexpand.xhtml?tocCode=PEN
-4. https://www.quandl.com/
+
 
