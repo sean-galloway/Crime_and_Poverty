@@ -130,3 +130,6 @@ dmypy.json
 
 # Api Key
 config.py
+
+# VS Code file
+.vscode
