@@ -1,4 +1,4 @@
-Year,Zipcode,Population,Poverty Count,Poverty Rate,Family Poverty Count,Median Household Income,Per Capita Income,Median Home Value
+Year,ZipCode,Population,Poverty Count,Poverty Rate,Family Poverty Count,Median Household Income,Per Capita Income,Median Home Value
 2014,95608,60729.0,8301.0,13.67,1476.0,55256.0,34606.0,304200.0
 2014,95610,43572.0,7174.0,16.46,1136.0,50536.0,25288.0,217100.0
 2014,95615,1090.0,165.0,15.14,0.0,59028.0,29801.0,324000.0
