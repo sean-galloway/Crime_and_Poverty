@@ -104,7 +104,7 @@ r^2 value = 0.09
 p-value = 0.01  
 r^2 value = 0.13    
 Note: the average p-value is 0.02 and the average r^2 value is 0.12. Given these values and the look of the diagrams, we can see that, in general, as povery rate goes up, crime rate also goes up.  
-Now, we want to examine what happens specifically in Oak Park. The diagram below illustrates the Crime Rate versus Poverty Rate over 2014-2017 in Oak Park.
+Now, we want to examine what happens specifically in Oak Park. The diagram below illustrates the Crime Rate versus Poverty Rate over 2014-2018 in Oak Park.
 
 ![cvp_oakpark_20142018](Images/cvp_oakpark_20142018.png)
 
