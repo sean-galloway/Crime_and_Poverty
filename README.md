@@ -29,21 +29,25 @@ Our fourth data set was the Google Maps API. Google Maps only needed cleaning th
 Our analysis begins with this question:
 1.	What are the overall crimes and personal crimes for Sacramento county for 2014-2018?
 To answer this question, we look at the following graph, which shows the total crime and personal crimes (rapes, murders, etc.) for Sacramento over 2014-2018.
+
 ![CrimesBar2014-2018_pyplot](Images/CrimesBar2014-2018_pyplot.png)
 
 The diagram above shows that crime is overall flat in Sacramento County. 
 The next question is:  
 2.	What are the Oak Park crimes and personal crimes for 2014-2018?  
 The following graph shows what is happening in Oak Park over 2014-2018.
+
 ![CrimesBar2014-2018_Oak_Park_pyplot](Images/CrimesBar2014-2018_Oak_Park_pyplot.png)
   
 The diagram above shows that crime is overall flat in Oak Park as well.  
 The next question is:  
 3.	How would a heat map of the crime for each zip code in Sacramento county look appear?  
 The next thought is, what does crime look like over Sacramento when looking at a heat map. Are there any hot spots? Did crime change significantly between 2014 and 2018? The following diagrams show us this. The first is a heat map of crimes in 2014.
+
 ![heatmap_crime_rate_2014](Images/heatmap_crime_rate_2014.png)
 
 The following diagram is a heat map of crimes in 2018.
+
 ![heatmap_crime_rate_2018](Images/heatmap_crime_rate_2018.png)
 
 These two heat maps show us two things:  
