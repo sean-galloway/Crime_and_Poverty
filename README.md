@@ -11,8 +11,8 @@ Our hypothesis is the following. We hypothesize that a decrease in the violent c
 
 ## Overall Analysis
 We had a couple of hypotheses:    
-•	Rising Median Home Prices leads to Lower Crime Rates  
-•	Rising Poverty Rates leads to Higher Crime Rates  
+•	Rising Median Home Prices correlates with Lower Crime Rates  
+•	Rising Poverty Rates correlates with Higher Crime Rates  
 The data for Sacramento County overall met these expectations. When we looked explicitly at Oak Park, results from the data were mixed. Oak Park had a lowering Crime Rate as Median House Price went up, as expected. Oak Park also had a lowering Crime Rate as the Poverty Rate went up. More research into Oak Park is needed to understand the discrepancy better
   
 
